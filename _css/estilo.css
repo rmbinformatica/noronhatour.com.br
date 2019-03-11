@@ -83,17 +83,71 @@ div#interface h3{
 div#interface h4{
     color: #040c74;
     position: relative;
-    left: 50px;
+    left: 0px;
+    top: -15px;
 }
 div#interface h5{
-
     background-color: #28669b;
     color: white;
     position: relative;
-    left: 325px;
+    left: 270px;
     margin: 4px;
     padding: 2px;
     width: 150px;
     right: 150px;
+    top: -20px;
 }
+#n1{
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,.4);
+    width: 34%;
+    right: 34%;
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+#n3{
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,.4);
+    width: 34%;
+    right: 34%;
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+#n5{
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,.4);
+    width: 34%;
+    right: 34%;
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+#n2{
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,.4);
+    width: 88%;
+    right: 88%;
+    position: relative;
+    left: 50px;
+    top: -30px;}
+#n4 {
+    clear: both;
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    width: 88%;
+    right: 88%;
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+ #n6{
+      clear: both;
+      border-top: 1px solid rgba(0,0,0,.4);
+      width: 88%;
+      right: 88%;
+      position: relative;
+      left: 50px;
+      top: -30px;
+  }
 
