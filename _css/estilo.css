@@ -98,15 +98,41 @@ div#interface p{
     top: 215px;
     left: 0px;
 }
-div#interface .p2{
+div#interface .ump{
+    border-right: 1px dashed rgba(0,0,0,.4);
+}
+div#interface .p3{
     position: absolute;
     top: 550px;
     left: 0px;
 }
-div#interface .p3{
+div#interface .p5{
     position: absolute;
     top: 885px;
     left: 0px;
+}
+div#interface .p2{
+     position: absolute;
+     top: 215px;
+     left: 0px;
+}
+div#interface .p4{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+}
+div#interface .p6{
+    position: absolute;
+    top: 885px;
+    left: 0px;
+}
+div#coluna1 p img{
+    clear: both;
+    border-right: 1px solid rgba(0,0,0,.4);
+
+    position: relative;
+    left: 50px;
+    top: -30px;
 }
 div#interface h5{
     background-color: #28669b;
@@ -128,6 +154,7 @@ div#interface h5{
     left: 50px;
     top: -30px;
 }
+
 #n3{
     clear: both;
     border-top: 1px solid rgba(0,0,0,.4);
