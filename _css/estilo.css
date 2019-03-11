@@ -1,24 +1,36 @@
 @charset "UTF-8";
 
 
+body{
+    background-color: white;
+}
 
 
-.icone {
+img#icone {
     top: 5px;
     position: absolute;
     left: 164px;
 }
 .capa{
     background:url('../_imagens/capa.png') no-repeat 0px 0px;
-    min-height:610px;
+    min-height:605px;
     background-size:cover;
     position:relative;
     top: 100px;
     left: -8px;
+    width: 1265px;
+
 }
 div#cabecalho{
     display: block;
     position: relative;
+}
+/*Menu*/
+nav#menu{
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 450px;
 }
 nav#menu ul{
     list-style: none;
@@ -26,7 +38,36 @@ nav#menu ul{
 }
 nav#menu li{
     display: inline-block;
-    background-color:#1c2be9;
-    padding: 7px;
+    background-color:blue;
+    padding: 6px;
     margin: 2px;
+    transition: background-color 0.8s;
 }
+nav#menu h1{
+    display: none;
+}
+nav#menu li:hover{
+    background-color:#1c2be9;
+}
+nav#menu a{
+    color: white;
+    text-decoration: none;
+}
+/*Formataçao de imagens*/
+div#interface h1{
+    font-family:;
+    color: #020b82;
+    position: relative;
+    left: 410px;
+    font-size: 35px;
+}
+nav#coluna1{
+   position: relative;
+    left: 140px;
+}
+nav#coluna2{
+    position: absolute;
+    left: 643px;
+    top: 813px;
+}
+
