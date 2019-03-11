@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+
+
+.icone {
+    top: 5px;
+    position: absolute;
+    left: 164px;
+}
+.capa{
+    background:url('../_imagens/capa.png') no-repeat 0px 0px;
+    min-height:610px;
+    background-size:cover;
+    position:relative;
+    top: 100px;
+    left: -8px;
+}
+div#cabecalho{
+    display: block;
+    position: relative;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+nav#menu li{
+    display: inline-block;
+    background-color:#1c2be9;
+    padding: 7px;
+    margin: 2px;
+}
