@@ -57,20 +57,27 @@ nav#menu a{
     text-decoration: none;
 }
 /*Formataçao de imagens*/
+div#interface img{
+    position: relative;
+    top: -27px;
+}
 div#interface h1{
     color: #040c74;
     position: relative;
     left: 410px;
     font-size: 35px;
+    top: -250px;
 }
 nav#coluna1{
    position: relative;
     left: 140px;
+    top: 100px;
+
 }
 nav#coluna2{
     position: absolute;
     left: 643px;
-    top: 813px;
+    top: 826px;
 }
 div#interface h3{
     font-size: 15pt;
@@ -86,16 +93,31 @@ div#interface h4{
     left: 0px;
     top: -15px;
 }
+div#interface p{
+    position: absolute;
+    top: 215px;
+    left: 0px;
+}
+div#interface .p2{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+}
+div#interface .p3{
+    position: absolute;
+    top: 885px;
+    left: 0px;
+}
 div#interface h5{
     background-color: #28669b;
     color: white;
     position: relative;
-    left: 270px;
-    margin: 4px;
+    left: 300px;
+    margin: 0px;
     padding: 2px;
-    width: 150px;
-    right: 150px;
-    top: -20px;
+    width: 130px;
+    right: 130px;
+    top: -17px;
 }
 #n1{
     clear: both;
@@ -141,7 +163,7 @@ div#interface h5{
     left: 50px;
     top: -30px;
 }
- #n6{
+#n6{
       clear: both;
       border-top: 1px solid rgba(0,0,0,.4);
       width: 88%;
@@ -149,5 +171,4 @@ div#interface h5{
       position: relative;
       left: 50px;
       top: -30px;
-  }
-
+}
