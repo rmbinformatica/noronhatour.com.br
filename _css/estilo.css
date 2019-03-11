@@ -4,6 +4,9 @@
 body{
     background-color: white;
 }
+div#barra{
+    margin: 0px 0px 0px 0px;
+}
 
 
 img#icone {
@@ -38,7 +41,7 @@ nav#menu ul{
 }
 nav#menu li{
     display: inline-block;
-    background-color:blue;
+    background-color:#28669b;
     padding: 6px;
     margin: 2px;
     transition: background-color 0.8s;
@@ -47,7 +50,7 @@ nav#menu h1{
     display: none;
 }
 nav#menu li:hover{
-    background-color:#1c2be9;
+    background-color:#034d7d;
 }
 nav#menu a{
     color: white;
@@ -55,8 +58,7 @@ nav#menu a{
 }
 /*Formataçao de imagens*/
 div#interface h1{
-    font-family:;
-    color: #020b82;
+    color: #040c74;
     position: relative;
     left: 410px;
     font-size: 35px;
@@ -69,5 +71,29 @@ nav#coluna2{
     position: absolute;
     left: 643px;
     top: 813px;
+}
+div#interface h3{
+    font-size: 15pt;
+    color: #020b82;
+    text-transform: uppercase;
+    position: relative;
+    left: 50px;
+    top: -12px;
+}
+div#interface h4{
+    color: #040c74;
+    position: relative;
+    left: 50px;
+}
+div#interface h5{
+
+    background-color: #28669b;
+    color: white;
+    position: relative;
+    left: 325px;
+    margin: 4px;
+    padding: 2px;
+    width: 150px;
+    right: 150px;
 }
 
