@@ -62,6 +62,7 @@ div#interface img{
     top: -27px;
 }
 div#interface h1{
+    font-family:"Courier New";
     color: #040c74;
     position: relative;
     left: 410px;
@@ -71,13 +72,13 @@ div#interface h1{
 nav#coluna1{
    position: relative;
     left: 140px;
-    top: 100px;
+    top: 70px;
 
 }
 nav#coluna2{
     position: absolute;
     left: 643px;
-    top: 826px;
+    top: 796px;
 }
 div#interface h3{
     font-size: 15pt;
@@ -190,12 +191,17 @@ div#interface h5{
     left: 50px;
     top: -30px;
 }
-#n6{
-      clear: both;
-      border-top: 1px solid rgba(0,0,0,.4);
-      width: 88%;
-      right: 88%;
-      position: relative;
-      left: 50px;
-      top: -30px;
+#n6 {
+    clear: both;
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    width: 88%;
+    right: 88%;
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+
+footer#rodape{
+    clear: top;
+    border-top: 1px solid yellow;
 }
