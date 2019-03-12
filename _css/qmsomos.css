@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body{
+    background-color: white;
+}
+div#cor2{
+    width:950px;
+    background-color:#eef3f8;
+    margin: 2px auto 0px auto;
+    padding: 0px;
+
+}
+div#cor2 h1 {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    width: 92%;
+}
+div#cor2 h1 {
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-size: 35pt;
+    color:#045184;
+    text-shadow: 1px 2px 3px rgba(0,0,0,.4);
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+section#corpo2 P {
+    font-family:Arial;
+    font-size: 13.5pt;
+    color:#045184;
+    margin-left: 30px;
+    margin-right: auto;
+    width: 30em
+}
+section#corpo2{
+    display: block;
+    width: 400px;
+    float:left;
+}
+aside#lateral{
+    float: right;
+    display: block;
+    width: 300px;
+}
+aside#lateral img{
+    width:250px;
+    right:150px;
+    display: block;
+    margin: 4px;
+}
+footer#rodape{
+    clear: both;
+}
