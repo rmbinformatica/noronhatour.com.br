@@ -22,7 +22,6 @@ img#icone {
     top: 100px;
     left: -8px;
     width: 1265px;
-
 }
 div#cabecalho{
     display: block;
@@ -62,12 +61,12 @@ div#interface img{
     top: -27px;
 }
 div#interface h1{
-    font-family:"Courier New";
-    color: #040c74;
-    position: relative;
+    font-size: 40px;
+    color: #002e5d;
+    text-shadow: 1px 4px 5px rgba(0,0,0,.4);
     left: 410px;
-    font-size: 35px;
-    top: -250px;
+    position: relative;
+    top: -270px;
 }
 nav#coluna1{
    position: relative;
@@ -78,7 +77,7 @@ nav#coluna1{
 nav#coluna2{
     position: absolute;
     left: 643px;
-    top: 796px;
+    top: 800px;
 }
 div#interface h3{
     font-size: 15pt;

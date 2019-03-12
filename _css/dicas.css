@@ -1,37 +1,35 @@
 @charset "UTF-8";
-body{
-    margin: auto;
-}
-div#centro h1{
-    font-family: "Calibri Light";
-    text-shadow: 1px 3px 1px rgba(0,0,0,.6);
-    position: relative;
+
+div#centro2 h1{
+    font-size: 30px;
+    color: #002e5d;
+    text-shadow: 1px 4px 5px rgba(0,0,0,.4);
     left: 300px;
-    color: #045184;
+    position: relative;
     text-transform: uppercase;
 }
-div#centro img{
+div#centro2 img{
     position: relative;
     left: 300px;
 }
-div#centro P {
+div#centro2 P {
     font-family: Calibri;
     font-size: 13.5pt;
+    color:#002e5d;
     margin-left: 300px;
     margin-right: auto;
-    width: 43em
+    width: 37em
 }
-div#centro h2{
+div#centro2 h2{
     position: relative;
     left: 800px;
 }
-
 .capa{
-    background:url('../_imagens/passeios.png') no-repeat 0px 0px;
-    min-height:540px;
+    background:url('../_imagens/dicas.jpg') no-repeat 0px 0px;
+    min-height:450px;
     background-size:cover;
     position:relative;
     top: 100px;
     left: -8px;
-    width: 1260px;
+    width: 1265px;
 }

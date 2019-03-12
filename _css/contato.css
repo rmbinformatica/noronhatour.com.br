@@ -3,9 +3,33 @@
 
 
 div#contato{
-    position: relative;
-    top: -20px;
+    position:relative;
+    top: 50px;
+    left: 150px;
 }
 div#contato h1{
-    color: #045184;
+    font-family:Constantia;
+    font-size: 40px;
+    color: #002e5d;
+    text-shadow: 1px 4px 5px rgba(0,0,0,.4);
+    margin: 2px;
+
+}
+div#contato h2{
+    font-family: Constantia;
+    font-size: 25px;
+    color: #002e5d;
+    text-shadow: 1px 4px 5px rgba(0,0,0,.4);
+    margin: 2px;
+}
+div#contato p{
+    font-family:Cambria;
+    font-size: 20px;
+    color: #002e5d;
+    margin: 2px;
+}
+.cont{
+    position: absolute;
+    left: 700px;
+    top: 410px;
 }
