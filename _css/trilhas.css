@@ -28,31 +28,24 @@ div#linha2{
 
 }
 div#linha2 img{
-    width: 90%;
-    right: 90%;
+    width: 98%;
+    right: 98%;
 }
 div#linha2{
     position: absolute;
     top: 162px;
 }
-section#esquerdo{
-
-}
-aside#direito{
-    display: block;
-    float: right;
-    width: 300px;
-}
 footer#rodape{
     clear: both;
 }
 p{
-    font-family:Calibri;
-    width: 17em;
-    text-align: left;
+    font-size: 10.5pt;
+    font-family:sans-serif;
+    width: 21em;
+    text-align: justify;
 }
 h1{
-    font-family:Constantia;
+    font-family:play, sans-serif;
     font-size: 50px;
     color: #002e5d;
     text-shadow: 1px 4px 5px rgba(0,0,0,.4);
@@ -68,14 +61,33 @@ h1{
     margin: 4px;
 }
 h5{
-    font-family:Marlett;
+
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
 }
 section#ump h2 {
     border-top: 1px solid rgba(0, 0, 0, .4);
 }
 section#borda h2{
     border-top: 1px solid rgba(0,0,0,.4);
+    width:93%;
+    margin:5px;
+    padding:5px;
+    text-align: left;
 }
+section#esquerdo{
+    display: block;
+    float: left;
+    width: 300px;
+}
+aside#direito{
+    display: block;
+    float: right;
+    width: 300px;
+}
+
+
 
 
 
