@@ -70,10 +70,12 @@ h1{
 h5{
     font-family:Marlett;
 }
+section#ump h2 {
+    border-top: 1px solid rgba(0, 0, 0, .4);
+}
 section#borda h2{
     border-top: 1px solid rgba(0,0,0,.4);
 }
-.borda1{ border-top: 1px solid rgba(0,0,0,.4);}
 
 
 
