@@ -86,6 +86,11 @@ aside#direito{
     float: right;
     width: 300px;
 }
+section#faca{
+    position: relative;
+    left: 290px;
+
+}
 
 
 

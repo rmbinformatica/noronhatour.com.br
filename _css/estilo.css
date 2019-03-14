@@ -93,6 +93,13 @@ div#interface h4{
     left: 0px;
     top: -15px;
 }
+div#interface a{
+   text-decoration: none;
+    color: white;
+}
+div#interface h5{
+    text-align: center;
+}
 div#interface p{
     position: absolute;
     top: 215px;

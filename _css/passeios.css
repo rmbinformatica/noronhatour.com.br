@@ -16,10 +16,10 @@ div#centro img{
 }
 div#centro P {
     font-family: Calibri;
-    font-size: 13.5pt;
+    font-size: 10.5pt;
     margin-left: 300px;
     margin-right: auto;
-    width: 38em;
+    width: 49em;
     text-align: justify;
 }
 div#centro h2{
@@ -35,4 +35,17 @@ div#centro h2{
     top: 100px;
     left: -8px;
     width: 1260px;
+}
+div#linha h1{
+    border-top: 1px solid rgba(0,0,0,.4);
+    width:54%;
+}
+div#centro a{
+    position: relative;
+    left: 560px;
+}
+section#dif a{
+    position: relative;
+    left: 400px;
+    top: 45px;
 }
