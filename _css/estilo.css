@@ -98,7 +98,7 @@ div#interface a{
     color: white;
 }
 div#interface h5{
-    text-align: center;
+    text-align:justify ;
 }
 div#interface p{
     position: absolute;
@@ -208,6 +208,8 @@ div#interface h5{
 }
 
 footer#rodape{
-    clear: top;
-    border-top: 1px solid yellow;
+    clear: both;
+}
+footer#rodape{
+    background-color: yellow;
 }
