@@ -19,7 +19,8 @@ div#centro P {
     font-size: 13.5pt;
     margin-left: 300px;
     margin-right: auto;
-    width: 43em
+    width: 38em;
+    text-align: justify;
 }
 div#centro h2{
     position: relative;

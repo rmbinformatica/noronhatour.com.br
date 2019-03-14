@@ -1,5 +1,31 @@
 @charset "UTF-8";
+@import url(https://fonts.google.com/specimen/Cormorant+Garamond);
 body{
+}
+div#rest{
     text-align: justify;
-    width:900px;
+    position: relative;
+    left: 170px;
+    top: 30px;
+}
+h1{
+    font-size: 14pt;
+    font-family: Calibri;
+    color: #002e5d;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    left: -10px;
+}
+p{
+    font-family: Calibri;
+    font-size: 10.5pt;
+    color: #002e5d;
+    text-align: justify;
+    width: 900px;
+
+}
+img{
+    width: 24%;
+    right: 24%;
 }

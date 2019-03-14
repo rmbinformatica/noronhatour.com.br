@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.capa{
+    background:url('../_imagens/mapa.jpg') no-repeat 0px 0px;
+    min-height:800px;
+    background-size:cover;
+    position:relative;
+    top: 100px;
+    left: -40px;
+    width: 1350px;
+
+}
