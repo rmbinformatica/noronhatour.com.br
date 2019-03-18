@@ -12,7 +12,7 @@ div#barra{
 img#icone {
     top: 5px;
     position: absolute;
-    left: 164px;
+    left: 0px;
 }
 .capa{
     background:url('../_imagens/capa.png') no-repeat 0px 0px;
@@ -28,32 +28,96 @@ div#cabecalho{
     position: relative;
 }
 /*Menu*/
-nav#menu{
-    display: block;
+*{margin:0;
+  padding:0;
+}
+.meni{
+    width: 100%;
+    right: 50px;
+    font-family: 'Arial';
+    top: 30px;
     position: absolute;
-    top: 22px;
-    left: 450px;
+    left: 300px;
 }
-nav#menu ul{
+.meni ul{
     list-style: none;
-    text-transform: uppercase;
+    position: relative;
 }
-nav#menu li{
-    display: inline-block;
-    background-color:#28669b;
-    padding: 6px;
-    margin: 2px;
-    transition: background-color 0.8s;
+.meni ul li {
+    width: 180px;
+    float: left;
+    margin: 0px;
 }
-nav#menu h1{
+.meni a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color:#28669a;
+    color: white;
+}
+.meni ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+.meni ul li:hover ul{
+    visibility: visible;
+}
+.meni a:hover{
+    background-color: #002e5d;
+}
+.meni ul ul li {
+    float: none;
+    border-bottom: 1px solid #002e5d;
+}
+.meni ul ul li a{
+    background-color: #28669a;
+}
+label[for="bt_menu"]{
+    padding: 5px;
+    background-color: #002e5d;
+    color: white;
+    font-family:Arial;
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    right: 50px;
+}
+#bt_menu{
     display: none;
 }
-nav#menu li:hover{
-    background-color:#034d7d;
+label[for="bt_menu"]{
+    display: none;
 }
-nav#menu a{
-    color: white;
-    text-decoration: none;
+
+@media(max-width: 800px){
+    label[for="bt_menu"]{
+        display: block;
+    }
+    #bt_menu:checked ~ .meni{
+        margin-left: 0;
+    }
+    .meni{
+        margin-top: 5px;
+        margin-left: -100%;
+        transition: all .4s;
+    }
+    .meni ul li{
+        width: 100%;
+        float: none;
+    }
+    .meni ul ul{
+        position: static;
+        overflow:hidden;
+        max-height: 0;
+        transition:  all .4s;
+    }
+    .meni ul li:hover ul{
+        height: auto;
+        max-height: 200px;
+
+    }
 }
 /*Formataçao de imagens*/
 div#interface img{
@@ -66,12 +130,12 @@ div#interface h1{
     text-shadow: 1px 4px 5px rgba(0,0,0,.4);
     left: 410px;
     position: relative;
-    top: -270px;
+    top: -230px;
 }
 nav#coluna1{
    position: relative;
     left: 140px;
-    top: 70px;
+    top: 66px;
 
 }
 nav#coluna2{
@@ -102,7 +166,7 @@ div#interface h5{
 }
 div#interface p{
     position: absolute;
-    top: 215px;
+    top: -1px;
     left: 0px;
 }
 div#interface .ump{
@@ -128,15 +192,10 @@ div#interface .p4{
     top: 550px;
     left: 0px;
 }
-div#interface .p6{
-    position: absolute;
-    top: 885px;
-    left: 0px;
-}
+
 div#coluna1 p img{
     clear: both;
     border-right: 1px solid rgba(0,0,0,.4);
-
     position: relative;
     left: 50px;
     top: -30px;
@@ -206,10 +265,16 @@ div#interface h5{
     left: 50px;
     top: -30px;
 }
-
-footer#rodape{
-    clear: both;
+section#corpo{
+    display: block;
+    float: left;
+    width: 660px;
+}
+aside#lateral{
+    display: block;
+    float: right;
+    width: 600px;
 }
 footer#rodape{
-    background-color: yellow;
+    clear: both;
 }
