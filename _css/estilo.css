@@ -28,7 +28,7 @@ div#cabecalho{
     position: relative;
 }
 /*Menu*/
-nav#menu{
+/*nav#menu{
     display: block;
     position: absolute;
     top: 22px;
@@ -37,11 +37,25 @@ nav#menu{
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
+    position: relative;
+}
+nav#menu ul ul{
+    position: absolute;
+    visibility: hidden;
+
+}
+nav#menu ul li:hover ul{
+    visibility: visible;
+}
+
+nav#menu ul li{
+    width:auto;
+    float: left;
 }
 nav#menu li{
     display: inline-block;
     background-color:#28669b;
-    padding: 6px;
+    padding: 2px;
     margin: 2px;
     transition: background-color 0.8s;
 }
@@ -52,8 +66,110 @@ nav#menu li:hover{
     background-color:#034d7d;
 }
 nav#menu a{
-    color: white;
+    padding: 4px;
+    display: block;
     text-decoration: none;
+    color: white;
+}*/
+*{margin: 0;
+    padding: 0;
+}
+nav#menu{
+    position: absolute;
+    top: 35px;
+    left: 500px;
+    width: 100%;
+    right: 50px;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    margin: 2px;
+}
+nav#menu ul a{
+
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu ul li {
+    float: left;
+
+}
+nav#menu a{
+    padding: 6px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2b6ca3;
+    color: white;
+}
+nav#menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+nav#menu ul li:hover ul{
+    visibility: visible;
+}
+nav#menu a:hover{
+    background-color: #045184;
+}
+nav#menu ul ul li {
+    width: 200px;
+
+}
+nav#menu ul ul li a{
+    background-color: #4981b0;
+}
+label[for="bt_menu"]{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family:Arial;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    right: 50px;
+    float: right;
+    position: absolute;
+}
+#bt_menu{
+    display: none;
+}
+label[for="bt_menu"]{
+    display: none;
+}
+
+@media(max-width: 800px){
+    label[for="bt_menu"]{
+        display: block;
+    }
+    #bt_menu:checked ~ nav#menu{
+        margin-left: 0;
+    }
+    nav#menu{
+        margin-top: 5px;
+        margin-left: -100%;
+        transition: all .4s;
+    }
+    nav#menu ul li{
+        width: 100%;
+        float: none;
+    }
+    nav#menu ul ul{
+        position: static;
+        overflow:hidden;
+        max-height: 0;
+        transition:  all .4s;
+    }
+    nav#menu ul li:hover ul{
+        height: auto;
+        max-height: 200px;
+
+    }
 }
 /*Formataçao de imagens*/
 div#interface img{
@@ -66,12 +182,13 @@ div#interface h1{
     text-shadow: 1px 4px 5px rgba(0,0,0,.4);
     left: 410px;
     position: relative;
-    top: -270px;
+    top: -260px;
+
 }
 nav#coluna1{
    position: relative;
     left: 140px;
-    top: 70px;
+    top: 30px;
 
 }
 nav#coluna2{
@@ -84,25 +201,25 @@ div#interface h3{
     color: #020b82;
     text-transform: uppercase;
     position: relative;
-    left: 50px;
-    top: -12px;
+    left: 45px;
+    top: -30px;
+    margin: 5px;
 }
 div#interface h4{
     color: #040c74;
     position: relative;
-    left: 0px;
-    top: -15px;
+
 }
 div#interface a{
    text-decoration: none;
     color: white;
 }
 div#interface h5{
-    text-align:justify ;
+    text-align:center;
 }
 div#interface p{
     position: absolute;
-    top: 215px;
+    top: 200px;
     left: 0px;
 }
 div#interface .ump{
@@ -110,27 +227,27 @@ div#interface .ump{
 }
 div#interface .p3{
     position: absolute;
-    top: 550px;
+    top: 460px;
     left: 0px;
 }
 div#interface .p5{
     position: absolute;
-    top: 885px;
+    top: 720px;
     left: 0px;
 }
 div#interface .p2{
      position: absolute;
-     top: 215px;
+     top: 200px;
      left: 0px;
 }
 div#interface .p4{
     position: absolute;
-    top: 550px;
+    top: 460px;
     left: 0px;
 }
 div#interface .p6{
     position: absolute;
-    top: 885px;
+    top: 720px;
     left: 0px;
 }
 div#coluna1 p img{
@@ -142,15 +259,14 @@ div#coluna1 p img{
     top: -30px;
 }
 div#interface h5{
-    background-color: #28669b;
+    background-color: rgba(4, 81, 132, 1);
     color: white;
     position: relative;
     left: 300px;
-    margin: 0px;
     padding: 2px;
     width: 130px;
     right: 130px;
-    top: -17px;
+    font-family: Arial,Helvetica,sans-serif;
 }
 #n1{
     clear: both;

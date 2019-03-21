@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-h1{
+div#texto h1{
     font-family:Calibri;
     font-size: 50px;
     color: #002e5d;
@@ -10,16 +10,15 @@ h1{
     position: relative;
     left: 150px;
 }
-h3{
+div#texto h3{
     font-family:Cambria;
     font-size: 20px;
     color: #002e5d;
     margin: 2px;
     position: relative;
     left: 150px;
-
 }
-p{
+div#texto p{
     font-family:Cambria;
     font-size: 13pt;
     color: #002e5d;
@@ -30,7 +29,7 @@ p{
     left: 150px;
     padding: 4px;
 }
-b{
+div#texto b{
     font-family:Cambria;
     font-size: 20px;
     color: #002e5d;
@@ -39,7 +38,7 @@ b{
     left: -2px;
 
 }
-ul{
+div#texto ul{
     font-family:Cambria;
     font-size: 15px;
     color: #002e5d;
