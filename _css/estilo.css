@@ -12,7 +12,7 @@ div#barra{
 img#icone {
     top: 5px;
     position: absolute;
-    left: 0px;
+    left: 164px;
 }
 .capa{
     background:url('../_imagens/capa.png') no-repeat 0px 0px;
@@ -28,108 +28,149 @@ div#cabecalho{
     position: relative;
 }
 /*Menu*/
-*{margin:0;
-  padding:0;
-}
-.meni{
-    width: 100%;
-    right: 50px;
-    font-family: 'Arial';
-    top: 30px;
-    position: absolute;
-    left: 300px;
-}
-.meni ul{
-    list-style: none;
-    position: relative;
-}
-.meni ul li {
-    width: 180px;
-    float: left;
-    margin: 0px;
-}
-.meni a{
-    padding: 10px;
+nav#menu{
     display: block;
-    text-decoration: none;
-    text-align: center;
-    background-color:#28669a;
-    color: white;
-}
-.meni ul ul {
     position: absolute;
-    visibility: hidden;
+    top: 22px;
+    left: 450px;
 }
-.meni ul li:hover ul{
-    visibility: visible;
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
 }
-.meni a:hover{
-    background-color: #002e5d;
+nav#menu li{
+    display: inline-block;
+    background-color:#28669b;
+    padding: 6px;
+    margin: 2px;
+    transition: background-color 0.8s;
 }
-.meni ul ul li {
-    float: none;
-    border-bottom: 1px solid #002e5d;
+nav#menu h1{
+    display: none;
 }
-.meni ul ul li a{
-    background-color: #28669a;
+nav#menu li:hover{
+    background-color:#034d7d;
 }
-label[for="bt_menu"]{
-    padding: 5px;
-    background-color: #002e5d;
+nav#menu a{
     color: white;
-    font-family:Arial;
-    text-align: right;
-    font-size: 30px;
-    cursor: pointer;
-    width: 50px;
-    right: 50px;
-}
-#bt_menu{
-    display: none;
-}
-label[for="bt_menu"]{
-    display: none;
-}
-
-@media(max-width: 800px){
-    label[for="bt_menu"]{
-        display: block;
-    }
-    #bt_menu:checked ~ .meni{
-        margin-left: 0;
-    }
-    .meni{
-        margin-top: 5px;
-        margin-left: -100%;
-        transition: all .4s;
-    }
-    .meni ul li{
-        width: 100%;
-        float: none;
-    }
-    .meni ul ul{
-        position: static;
-        overflow:hidden;
-        max-height: 0;
-        transition:  all .4s;
-    }
-    .meni ul li:hover ul{
-        height: auto;
-        max-height: 200px;
-
-    }
+    text-decoration: none;
 }
 /*Formataçao de imagens*/
+<<<<<<< HEAD
 
 
 section#corpo img{
     width: 95%;
+=======
+div#interface img{
+    position: relative;
+    top: -27px;
+}
+div#interface h1{
+    font-size: 40px;
+    color: #002e5d;
+    text-shadow: 1px 4px 5px rgba(0,0,0,.4);
+    left: 410px;
+    position: relative;
+    top: -270px;
+}
+nav#coluna1{
+   position: relative;
+    left: 140px;
+    top: 70px;
+
+}
+nav#coluna2{
+    position: absolute;
+    left: 643px;
+    top: 800px;
+}
+div#interface h3{
+    font-size: 15pt;
+    color: #020b82;
+    text-transform: uppercase;
+    position: relative;
+    left: 50px;
+    top: -12px;
+}
+div#interface h4{
+    color: #040c74;
+    position: relative;
+    left: 0px;
+    top: -15px;
+}
+div#interface a{
+   text-decoration: none;
+    color: white;
+}
+div#interface h5{
+    text-align:justify ;
+}
+div#interface p{
+    position: absolute;
+    top: 215px;
+    left: 0px;
+}
+div#interface .ump{
+    border-right: 1px dashed rgba(0,0,0,.4);
+}
+div#interface .p3{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+}
+div#interface .p5{
+    position: absolute;
+    top: 885px;
+    left: 0px;
+}
+div#interface .p2{
+     position: absolute;
+     top: 215px;
+     left: 0px;
+}
+div#interface .p4{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+}
+div#interface .p6{
+    position: absolute;
+    top: 885px;
+    left: 0px;
+}
+div#coluna1 p img{
+    clear: both;
+    border-right: 1px solid rgba(0,0,0,.4);
+
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+div#interface h5{
+    background-color: #28669b;
+    color: white;
+    position: relative;
+    left: 300px;
+    margin: 0px;
+    padding: 2px;
+    width: 130px;
+    right: 130px;
+    top: -17px;
+}
+#n1{
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,.4);
+    width: 34%;
+    right: 34%;
+>>>>>>> parent of 0937919... mudei muitas coisas
     position: relative;
     left: 130px;
     top: 175px;
     margin: 19px;
 
 }
+<<<<<<< HEAD
 section#corpo{
     display: block;
     float: left;
@@ -148,7 +189,13 @@ aside#lateral{
     float: right;
     width: 500px;
 }
+=======
+
+>>>>>>> parent of 0937919... mudei muitas coisas
 footer#rodape{
     position: absolute;
     clear: both;
+}
+footer#rodape{
+    background-color: yellow;
 }
