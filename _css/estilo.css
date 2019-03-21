@@ -120,161 +120,35 @@ label[for="bt_menu"]{
     }
 }
 /*Formataçao de imagens*/
-div#interface img{
-    position: relative;
-    top: -27px;
-}
-div#interface h1{
-    font-size: 40px;
-    color: #002e5d;
-    text-shadow: 1px 4px 5px rgba(0,0,0,.4);
-    left: 410px;
-    position: relative;
-    top: -230px;
-}
-nav#coluna1{
-   position: relative;
-    left: 140px;
-    top: 66px;
 
-}
-nav#coluna2{
-    position: absolute;
-    left: 643px;
-    top: 800px;
-}
-div#interface h3{
-    font-size: 15pt;
-    color: #020b82;
-    text-transform: uppercase;
-    position: relative;
-    left: 50px;
-    top: -12px;
-}
-div#interface h4{
-    color: #040c74;
-    position: relative;
-    left: 0px;
-    top: -15px;
-}
-div#interface a{
-   text-decoration: none;
-    color: white;
-}
-div#interface h5{
-    text-align:justify ;
-}
-div#interface p{
-    position: absolute;
-    top: -1px;
-    left: 0px;
-}
-div#interface .ump{
-    border-right: 1px dashed rgba(0,0,0,.4);
-}
-div#interface .p3{
-    position: absolute;
-    top: 550px;
-    left: 0px;
-}
-div#interface .p5{
-    position: absolute;
-    top: 885px;
-    left: 0px;
-}
-div#interface .p2{
-     position: absolute;
-     top: 215px;
-     left: 0px;
-}
-div#interface .p4{
-    position: absolute;
-    top: 550px;
-    left: 0px;
-}
 
-div#coluna1 p img{
-    clear: both;
-    border-right: 1px solid rgba(0,0,0,.4);
+section#corpo img{
+    width: 95%;
     position: relative;
-    left: 50px;
-    top: -30px;
-}
-div#interface h5{
-    background-color: #28669b;
-    color: white;
-    position: relative;
-    left: 300px;
-    margin: 0px;
-    padding: 2px;
-    width: 130px;
-    right: 130px;
-    top: -17px;
-}
-#n1{
-    clear: both;
-    border-top: 1px solid rgba(0,0,0,.4);
-    width: 34%;
-    right: 34%;
-    position: relative;
-    left: 50px;
-    top: -30px;
-}
+    left: 130px;
+    top: 175px;
+    margin: 19px;
 
-#n3{
-    clear: both;
-    border-top: 1px solid rgba(0,0,0,.4);
-    width: 34%;
-    right: 34%;
-    position: relative;
-    left: 50px;
-    top: -30px;
-}
-#n5{
-    clear: both;
-    border-top: 1px solid rgba(0,0,0,.4);
-    width: 34%;
-    right: 34%;
-    position: relative;
-    left: 50px;
-    top: -30px;
-}
-#n2{
-    clear: both;
-    border-top: 1px solid rgba(0,0,0,.4);
-    width: 88%;
-    right: 88%;
-    position: relative;
-    left: 50px;
-    top: -30px;}
-#n4 {
-    clear: both;
-    border-top: 1px solid rgba(0, 0, 0, .4);
-    width: 88%;
-    right: 88%;
-    position: relative;
-    left: 50px;
-    top: -30px;
-}
-#n6 {
-    clear: both;
-    border-top: 1px solid rgba(0, 0, 0, .4);
-    width: 88%;
-    right: 88%;
-    position: relative;
-    left: 50px;
-    top: -30px;
 }
 section#corpo{
     display: block;
     float: left;
-    width: 660px;
+    width: 500px;
+
+}
+aside#lateral img{
+    width:95%;
+    position: relative;
+    right: 150px;
+    top: 200px;
+    margin: 20px;
 }
 aside#lateral{
     display: block;
     float: right;
-    width: 600px;
+    width: 500px;
 }
 footer#rodape{
+    position: absolute;
     clear: both;
 }
