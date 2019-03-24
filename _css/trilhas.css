@@ -1,5 +1,10 @@
 @charset "UTF-8";
-body{
+
+div#tam{
+    width:950px;
+    margin: 2px auto 0px auto;
+
+
 }
 h1 {
     font-family: Constantia;
@@ -7,36 +12,26 @@ h1 {
     color: #002e5d;
     text-shadow: 1px 4px 5px rgba(0, 0, 0, .4);
     margin: 2px;
-    position: relative;
-    left: 180px;
+    float: left;
 }
-div#linha1{
-    color: #040c74;
-    position: relative;
-    left: 180px;
-    width: 21%;
-    right: 21%;
-}
-div#linha1 img{
-    width: 100%;
-    right: 100%;
-}
-div#linha2{
+section#esquerdo{
     color: #040c74;
     width: 21%;
     right: 21%;
-
 }
-div#linha2 img{
-    width: 98%;
-    right: 98%;
+section#esquerdo img{
+    width: 60%;
+    right: 60%;
 }
-div#linha2{
-    position: absolute;
-    top: 162px;
+aside#direito{
+    float: right;
+    color: #040c74;
+    width: 21%;
+    right: 21%;
 }
-footer#rodape{
-    clear: both;
+aside#direito img{
+    width: 60%;
+    right: 60%;
 }
 p{
     font-size: 10.5pt;
@@ -53,8 +48,7 @@ h1{
     position:relative;
     left: 180px;
 }
- h2{
-
+h2{
     font-family:Calibri;
     font-size: 13pt;
     color: #002e5d;
@@ -69,9 +63,16 @@ h5{
 section#ump h2 {
     border-top: 1px solid rgba(0, 0, 0, .4);
 }
+section#ump h2{
+    border-top: 1px solid rgba(0,0,0,.4);
+    width:57%;
+    margin:5px;
+    padding:5px;
+    text-align: left;
+}
 section#borda h2{
     border-top: 1px solid rgba(0,0,0,.4);
-    width:93%;
+    width:57%;
     margin:5px;
     padding:5px;
     text-align: left;
@@ -79,17 +80,21 @@ section#borda h2{
 section#esquerdo{
     display: block;
     float: left;
-    width: 300px;
+    width: 500px;
 }
 aside#direito{
     display: block;
     float: right;
-    width: 300px;
+    width: 500px;
 }
 section#faca{
     position: relative;
     left: 290px;
 
+}
+
+footer#rodape{
+    clear: both;
 }
 
 
