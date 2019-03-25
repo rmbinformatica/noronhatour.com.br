@@ -47,3 +47,6 @@ div#texto ul{
     left: 30px;
     width: 900px;
 }
+section#corpo{
+    position: relative;
+}

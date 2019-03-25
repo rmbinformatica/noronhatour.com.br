@@ -2,7 +2,6 @@
 
 
 body{
-    background-color: white;
 }
 div#barra{
     margin: 0px 0px 0px 0px;
@@ -320,8 +319,33 @@ div#interface h5{
 }
 
 footer#rodape{
-    clear: both;
+    background-color: #d2ac5b;
 }
-footer#rodape{
-    background-color: yellow;
+form{
+    font-size: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+
+}
+input, textarea{
+    width:150px;
+    padding: 10px;
+}
+.enviar input {
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+    cursor: pointer;
+
+}
+textarea {
+    width: 200px;
+    height: 95px;
+    line-height: 20px;
+    float: right;
+    position: relative;
+    top: -117px;
 }
