@@ -318,9 +318,6 @@ div#interface h5{
     top: -30px;
 }
 
-footer#rodape{
-    background-color: #d2ac5b;
-}
 form{
     font-size: 16px;
     max-width: 400px;
@@ -349,3 +346,32 @@ textarea {
     position: relative;
     top: -117px;
 }
+section#textoesq{
+  border-top: 1px solid rgba(0,0,0,.4);
+    width: 1300px;
+    display: block;
+    float: left;
+    background-color: #d2ac5b;
+
+}
+section#textoesq, body{
+    background-color:#d2ac5b;
+}
+section#textoesq p{
+    position: relative;
+    left: 150px;
+    width: 200px;
+    margin: 10px;
+}
+aside#lado{
+    display: block;
+    float:left;
+    width:400px;
+    position: absolute;
+    left: 400px;
+    top: 1680px;
+    border-right: 1px solid rgba(0,0,0,.4);
+    border-left: 1px solid rgba(0,0,0,.4);
+
+}
+
