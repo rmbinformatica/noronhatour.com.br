@@ -326,7 +326,7 @@ form{
 
 }
 input, textarea{
-    width:150px;
+    width:130px;
     padding: 10px;
 }
 .enviar input {
@@ -338,6 +338,9 @@ input, textarea{
     cursor: pointer;
 
 }
+section#textoesq{
+    position:relative;
+}
 textarea {
     width: 200px;
     height: 95px;
@@ -346,32 +349,49 @@ textarea {
     position: relative;
     top: -117px;
 }
+
 section#textoesq{
-  border-top: 1px solid rgba(0,0,0,.4);
+    padding: 30px;
+    border-top: 1px solid rgba(0,0,0,.4);
     width: 1300px;
     display: block;
     float: left;
     background-color: #d2ac5b;
-
-}
-section#textoesq, body{
-    background-color:#d2ac5b;
 }
 section#textoesq p{
-    position: relative;
-    left: 150px;
-    width: 200px;
-    margin: 10px;
+    float: left;
+    width: 700px;
+    margin: 1px;
+    font-family: Calibri;
+    font-size: 12pt;
+    color: white;
+
 }
 aside#lado{
-    display: block;
-    float:left;
-    width:400px;
     position: absolute;
-    left: 400px;
-    top: 1680px;
-    border-right: 1px solid rgba(0,0,0,.4);
+    float:right;
+    right: 450px;
+    width:400px;
+    padding: 10px;
     border-left: 1px solid rgba(0,0,0,.4);
 
+}
+.ibaixo{
+    display: block;
+    float: right;
+    width: 250px;
+    right: 150px;
+    padding: 40px;
+    position: absolute;
+}
+footer#rodape{
+    padding: 40px;
+    background-color: #d2ac5b;
+}
+footer#rodape p{
+    color:red;
+}
+footer#rodape a{
+    color: blue;
 }
 

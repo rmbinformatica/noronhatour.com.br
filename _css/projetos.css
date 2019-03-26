@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div#textoj{
+    right: 600px;
+    width:960px;
+    margin: 2px auto 0px auto;
+    padding: 50px;
+}
+h1 {
+    font-family: Calibri;
+    font-size: 30px;
+    color: #002e5d;
+    text-shadow: 1px 4px 5px rgba(0, 0, 0, .4);
+    margin: 2px;
+    text-align: center;
+}
+div#textoj p{
+    font-family:Cambria;
+    font-size: 13pt;
+    color: #002e5d;
+    margin: 2px;
+    text-align: justify;
+    padding: 4px;
+}
+h3{
+    font-family:Cambria;
+    font-size: 20px;
+    color: #002e5d;
+    margin: 2px;
+
+}

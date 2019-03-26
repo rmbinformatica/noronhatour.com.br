@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+div#texto{
+    right: 600px;
+    width:950px;
+    margin: 2px auto 0px auto;
+}
 
 div#texto h1{
     font-family:Calibri;
@@ -7,8 +12,6 @@ div#texto h1{
     color: #002e5d;
     text-shadow: 1px 4px 5px rgba(0,0,0,.4);
     margin: 2px;
-    position: relative;
-    left: 150px;
 }
 div#texto h3{
     font-family:Cambria;
@@ -16,37 +19,31 @@ div#texto h3{
     color: #002e5d;
     margin: 2px;
     position: relative;
-    left: 150px;
+    left: 20px;
 }
 div#texto p{
     font-family:Cambria;
     font-size: 13pt;
     color: #002e5d;
     margin: 2px;
-   width: 50em;
+    width: 50em;
     text-align: justify;
     position: relative;
-    left: 150px;
-    padding: 4px;
+    left: 20px;
+    padding: 2px;
 }
 div#texto b{
     font-family:Cambria;
     font-size: 20px;
     color: #002e5d;
     margin: 2px;
-    position: relative;
-    left: -2px;
-
 }
 div#texto ul{
     font-family:Cambria;
     font-size: 15px;
     color: #002e5d;
-    margin: 10px;
     position: relative;
     left: 30px;
-    width: 900px;
+
 }
-section#corpo{
-    position: relative;
-}
+

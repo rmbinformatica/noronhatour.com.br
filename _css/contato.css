@@ -1,11 +1,10 @@
 @charset "UTF-8";
 
-
-
 div#contato{
-    position:relative;
-    top: 50px;
-    left: 150px;
+  width: 900px;
+  right: 600px;
+  margin: 2px auto 0 auto;
+
 }
 div#contato h1{
     font-family:Constantia;
