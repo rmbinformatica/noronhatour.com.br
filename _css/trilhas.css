@@ -13,7 +13,7 @@ div#tam h1 {
     text-shadow: 1px 4px 5px rgba(0, 0, 0, .4);
     margin: 2px;
 }
-aside#direito h1 {
+#direito h1 {
     font-family: Constantia;
     font-size: 50px;
     color: #002e5d;
@@ -34,16 +34,7 @@ section#direito{
     width: 21%;
     right: 21%;
 }
-aside#direito img{
-    width: 60%;
-    right: 60%;
-}
-aside#direito p{
-    font-size: 10.5pt;
-    font-family:sans-serif;
-    width: 21em;
-    text-align: justify;
-}
+
 div#tam p{
     font-size: 10.5pt;
     font-family:sans-serif;
@@ -89,9 +80,6 @@ section#esquerdo{
     display: block;
     float: left;
     width: 500px;
-}
-section#faca{
-
 }
 
 

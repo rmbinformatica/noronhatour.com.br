@@ -323,6 +323,8 @@ form{
     max-width: 400px;
     margin: 0 auto;
     padding: 0 10px 10px 10px;
+    position: relative;
+    top: -260px;
 
 }
 input, textarea{
@@ -338,60 +340,26 @@ input, textarea{
     cursor: pointer;
 
 }
-section#textoesq{
-    position:relative;
-}
 textarea {
     width: 200px;
     height: 95px;
     line-height: 20px;
-    float: right;
-    position: relative;
-    top: -117px;
+    position:absolute;
+    top: 0px;
+    left: 165px;
 }
-
-section#textoesq{
-    padding: 30px;
-    border-top: 1px solid rgba(0,0,0,.4);
-    width: 1300px;
-    display: block;
-    float: left;
+div#lado{
     background-color: #d2ac5b;
+    border-top: 1px solid rgba(0,0,0,.4);
+    box-shadow: black;
+}
+div#lado img{
+    position: relative;
+    left: 900px;
+    top: -400px;
 }
 section#textoesq p{
-    float: left;
-    width: 700px;
-    margin: 1px;
-    font-family: Calibri;
     font-size: 12pt;
-    color: white;
-
+    font-family: Calibri;
 }
-aside#lado{
-    position: absolute;
-    float:right;
-    right: 450px;
-    width:400px;
-    padding: 10px;
-    border-left: 1px solid rgba(0,0,0,.4);
-
-}
-.ibaixo{
-    display: block;
-    float: right;
-    width: 250px;
-    right: 150px;
-    padding: 40px;
-    position: absolute;
-}
-footer#rodape{
-    padding: 40px;
-    background-color: #d2ac5b;
-}
-footer#rodape p{
-    color:red;
-}
-footer#rodape a{
-    color: blue;
-}
-
+d2ac5b
