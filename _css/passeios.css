@@ -3,13 +3,13 @@ body{
     margin: auto;
 }
 div#centro h1{
-    font-family: "Calibri Light";
-    text-shadow: 1px 3px 1px rgba(0,0,0,.6);
-    position: relative;
-    left: 300px;
-    color: #045184;
-    text-transform: uppercase;
-}
+     font-family: "Calibri Light";
+     text-shadow: 1px 3px 1px rgba(0,0,0,.6);
+     position: relative;
+     left: 300px;
+     color: #045184;
+     text-transform: uppercase;
+ }
 div#centro img{
     position: relative;
     left: 300px;

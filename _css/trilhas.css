@@ -1,11 +1,26 @@
 @charset "UTF-8";
-
-div#tam{
+body{
+    margin: auto;
+}
+div#tam {
     right: 600px;
-    width:800px;
+    width: 950px;
     margin: 2px auto 0px auto;
     padding: 50px;
 }
+div#tam img{
+    width: 800px;
+    right: 400px;
+}
+div#tam h1{
+    font-family: "Calibri Light";
+    text-shadow: 1px 3px 1px rgba(0,0,0,.6);
+
+    color: #045184;
+    text-transform: uppercase;
+    width: 700px;
+}
+
 div#tam h1 {
     font-family: Constantia;
     font-size: 50px;
@@ -13,55 +28,21 @@ div#tam h1 {
     text-shadow: 1px 4px 5px rgba(0, 0, 0, .4);
     margin: 2px;
 }
-#direito h1 {
-    font-family: Constantia;
-    font-size: 50px;
-    color: #002e5d;
-    text-shadow: 1px 4px 5px rgba(0, 0, 0, .4);
-    margin: 2px;
-}
-section#esquerdo{
-    color: #040c74;
-    width: 21%;
-    right: 21%;
-}
-section#esquerdo img{
-    width: 60%;
-    right: 60%;
-}
-section#direito{
-    color: #040c74;
-    width: 21%;
-    right: 21%;
-}
-
-div#tam p{
+div#tam P {
+    font-family: Calibri;
     font-size: 10.5pt;
-    font-family:sans-serif;
-    width: 21em;
+    width: 49em;
     text-align: justify;
 }
-h1{
-    font-family:play, sans-serif;
-    font-size: 50px;
-    color: #002e5d;
-    text-shadow: 1px 4px 5px rgba(0,0,0,.4);
-    margin: 2px;
-}
-h2{
-    font-family:Calibri;
-    font-size: 13pt;
-    color: #002e5d;
-    margin: 4px;
+div#tam h2{
+
 }
 h5{
     font-style: italic;
     font-size: 14px;
     text-align: justify;
 }
-section#ump h2 {
-    border-top: 1px solid rgba(0, 0, 0, .4);
-}
+
 section#ump h2{
     border-top: 1px solid rgba(0,0,0,.4);
     width:57%;
@@ -69,18 +50,7 @@ section#ump h2{
     padding:5px;
     text-align: left;
 }
-section#borda h2{
-    border-top: 1px solid rgba(0,0,0,.4);
-    width:57%;
-    margin:5px;
-    padding:5px;
-    text-align: left;
-}
-section#esquerdo{
-    display: block;
-    float: left;
-    width: 500px;
-}
+
 
 
 
