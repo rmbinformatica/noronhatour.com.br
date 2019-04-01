@@ -1,10 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <style>
+        form{
+            font-size: 16px;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 0 10px 10px 10px;
+            position: relative;
+            top: -260px;
+        }
+        input, textarea{
+            width:130px;
+            padding: 10px;
+        }
+        .enviar input {
+            background-color:white;
+            height: 40px;
+            width: 100px;
+            font-weight: bold;
+            color: rgba(0,0,0,.5);
+            cursor: pointer;
+
+        }
+        textarea {
+            width: 200px;
+            height: 95px;
+            line-height: 20px;
+            position:absolute;
+            top: 0px;
+            left: 165px;
+        }
+        div#lado{
+            background-color: #d2ac5b;
+            width: 1265px;
+            position:absolute;
+            left: -8px;
+        }
+        div#lado img{
+            position: relative;
+            left: 900px;
+            top: -400px;
+        }
+        section#textoesq p{
+            font-size: 12pt;
+            font-family: Calibri;
+        }
+
+    </style>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<div id="lado">
+    <section id="textoesq">
+        <p>FERNANDO DE NORONHA</p>
+        <p>Rua São Miguel, 637</p>
+
+        <p>Bosque Flamboyant</p>
+        <p>Vila dos Remedios</p>
+        <p>Fernando de Noronha / PE - Brasil</p>
+        <p>CEP: 53990-000</p>
+        <p>Telefone: (81) 3619-1134</p>
+        <p>E-mail: info@noronhatour.com.br</p>
+        <p>Aberto diariamente das 07:30hs às 20:30hs</p>
+        <p>Plantão: (81) 9 9517 0048</p>
+        <p>NATAL - CENTRAL DE RESERVAS</p>
+        <p>(84) 3206-8840 / 3206-8841</p>
+        <p>Segunda a Sexta - 08 às 18hs</p>
+        <p>Sábado - 08 às12hs.</p>
+    </section>
+
+    <form name="formteste" action="" method="post">
+        <p class="nome">
+            <input type="text" name="nome" placeholder="Nome" required="required">
+        </p>
+        <p class="email">
+            <input type="email" name="email" placeholder="Email" required="required">
+        </p>
+        <p class="assunto">
+            <input type="text" name="assunto" placeholder="Assunto" required="required">
+        </p>
+        <p class="mensagem">
+            <textarea name="mensagem" placeholder="Mensagem"></textarea>
+        </p>
+        <p class="enviar">
+            <input type="submit" name="enviar" value="Enviar">
+        </p>
+
+    </form>
+
+    <img class="ibaixo" src="_imagens/i-baixo.png">
+</div>
+<footer id="rodape">
+    <p>&copy; 2019 Criado por Denilton Gomes</p>
+</footer>
 
 </body>
 </html>

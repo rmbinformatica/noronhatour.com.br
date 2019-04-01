@@ -17,7 +17,7 @@ section#borda2 {
 section#corpo2 img {
    width: 40%;
    right: 40%;
-    padding:150px;
+   padding:150px;
 }
 h1 {
     text-transform: uppercase;
@@ -38,7 +38,6 @@ div#cor2 P {
     margin-left: 30px;
     margin-right: auto;
     width: 33em;
-    padding: 8px;
 }
 aside#lateral{
     font-family: Calibri;

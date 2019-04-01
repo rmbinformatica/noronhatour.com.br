@@ -324,7 +324,9 @@ form{
     margin: 0 auto;
     padding: 0 10px 10px 10px;
     position: relative;
-    top: -260px;
+    top: -200px;
+    border-right: 1px dashed rgba(0,0,0,.4);
+    border-left: 1px dashed rgba(0,0,0,.4);
 
 }
 input, textarea{
@@ -347,19 +349,38 @@ textarea {
     position:absolute;
     top: 0px;
     left: 165px;
+
 }
 div#lado{
     background-color: #d2ac5b;
     border-top: 1px solid rgba(0,0,0,.4);
     box-shadow: black;
+    height: 429px;
 }
 div#lado img{
-    position: relative;
+    position:relative;
     left: 900px;
-    top: -400px;
+    top: -350px;
 }
 section#textoesq p{
     font-size: 12pt;
     font-family: Calibri;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 50px;
 }
-d2ac5b
+
+footer#rodape{
+    background-color:#d2ac5b;
+    height: 100px;
+}
+footer#rodape p{
+    position: relative;
+    left: 100px;
+    border-top: 1px dashed rgba(0,0,0,.4);
+    width: 140px;
+    top: -10px;
+    color: white;
+    padding: 30px;
+}
