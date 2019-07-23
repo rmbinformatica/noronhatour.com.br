@@ -1,26 +1,12 @@
 @charset "UTF-8";
-body{
-    margin: auto;
-}
-div#tam {
+
+div#tam{
+    width:950px;
     right: 600px;
-    width: 950px;
+    width:800px;
     margin: 2px auto 0px auto;
     padding: 50px;
 }
-div#tam img{
-    width: 800px;
-    right: 400px;
-}
-div#tam h1{
-    font-family: "Calibri Light";
-    text-shadow: 1px 3px 1px rgba(0,0,0,.6);
-
-    color: #045184;
-    text-transform: uppercase;
-    width: 700px;
-}
-
 div#tam h1 {
     font-family: Constantia;
     font-size: 50px;
@@ -28,30 +14,78 @@ div#tam h1 {
     text-shadow: 1px 4px 5px rgba(0, 0, 0, .4);
     margin: 2px;
 }
-div#tam P {
-    font-family: Calibri;
+aside#direito h1 {
+    font-family: Constantia;
+    font-size: 50px;
+    color: #002e5d;
+    text-shadow: 1px 4px 5px rgba(0, 0, 0, .4);
+    margin: 2px;
+    float: left;
+}
+section#esquerdo {
+    color: #040c74;
+}
+section#esquerdo img{
+     width: 60%;
+     right: 60%;
+}
+aside#direito {
+    float: right;
+}
+section#direito {
+    color: #040c74;
+    width: 21%;
+    right: 21%;
+}
+aside#direito img{
+                       width: 60%;
+                       right: 60%;
+                   }
+
+aside#direito p{
     font-size: 10.5pt;
-    width: 49em;
+    font-family:sans-serif;
+    width: 21em;
     text-align: justify;
 }
-div#tam h2{
-
+div#tam p {
+    font-size: 10.5pt;
+    font-family: sans-serif;
+    width: 21em;
 }
-h5{
+h1{
+      color: #002e5d;
+      text-shadow: 1px 4px 5px rgba(0,0,0,.4);
+      margin: 2px;
+      position:relative;
+      left: 180px;
+}
+h2 {
+    font-family: Calibri;
+}
+h2{
+margin: 4px;
+ }
+h5 {
     font-style: italic;
     font-size: 14px;
     text-align: justify;
 }
+section#esquerdo{
+      float: left;
+     width: 500px;
+}
+aside#direito{
+    display: block;
+    float: right;
+    width: 500px;
+}
+section#faca{
+    position: relative;
+    left: 290px;
 
-section#ump h2{
-    border-top: 1px solid rgba(0,0,0,.4);
-    width:57%;
-    margin:5px;
-    padding:5px;
-    text-align: left;
 }
 
-
-
-
-
+footer#rodape{
+    clear: both;
+}
