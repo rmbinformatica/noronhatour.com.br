@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body{
+    margin: auto;
+}
+div#centro h1{
+    font-family: "Calibri Light";
+    text-shadow: 1px 3px 1px rgba(0,0,0,.6);
+    position: relative;
+    left: 300px;
+    color: #045184;
+    text-transform: uppercase;
+}
+div#centro img{
+    position: relative;
+    left: 300px;
+}
+div#centro P {
+    font-family: Calibri;
+    font-size: 10.5pt;
+    margin-left: 300px;
+    margin-right: auto;
+    width: 49em;
+    text-align: justify;
+}
+div#centro h2{
+    position: relative;
+    left: 800px;
+}
+
+.capa{
+    background:url('../_imagens/passeios.png') no-repeat 0px 0px;
+    min-height:540px;
+    background-size:cover;
+    position:relative;
+    top: 100px;
+    left: -8px;
+    width: 1260px;
+}
+div#linha h1{
+    border-top: 1px solid rgba(0,0,0,.4);
+    width:54%;
+}
+div#centro a{
+    position: relative;
+    left: 560px;
+}
+section#dif a{
+    position: relative;
+    left: 400px;
+    top: 45px;
+}
