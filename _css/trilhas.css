@@ -26,6 +26,30 @@ div#centro h2{
     position: relative;
     left: 800px;
 }
+div#centro h3 {
+    font-family: Calibri;
+    font-size: 10.5pt;
+    margin-left: 300px;
+    margin-right: auto;
+    width: 49em;
+    text-align: justify;
+}
+div#centro h4 {
+    font-family: Calibri;
+    font-size: 10.5pt;
+    margin-left: 300px;
+    margin-right: auto;
+    width: 49em;
+    text-align: justify;
+}
+div#centro h5 {
+    font-family: Calibri;
+    font-size: 10.5pt;
+    margin-left: 300px;
+    margin-right: auto;
+    width: 49em;
+    text-align: justify;
+}
 
 .capa{
     background:url('../_imagens/passeios.png') no-repeat 0px 0px;
@@ -36,9 +60,12 @@ div#centro h2{
     left: -8px;
     width: 1260px;
 }
-div#linha h1{
-    border-top: 1px solid rgba(0,0,0,.4);
+div#centro h5{
+    border-bottom: 1px solid rgba(0,0,0,.4);
     width:54%;
+}
+div#centro {
+    color:#045184;
 }
 div#centro a{
     position: relative;
